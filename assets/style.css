@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-dark-cu {
+    background-color: #141C22;
+    position: relative;
+}
+
+.bg-dark-cu:after {
+    top: 0;
+    right: 0;
+    width: 43%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffc107 !important;
+    content: "";
+}
+
+.box {
+    position: absolute;
+    z-index: 2;
+}
+
+
+/* rating area style custom start  */
+.card_mark {
+    max-width: 140px;
+    border: 1px solid red;
+}
+
+svg.bi.bi-star-fill {
+    margin: 0 2px;
+}
+
+/* rating area style custom end  */
+
+/* how_to work css here start*/
+.how_work {
+    background-color: #021D2E;
+}
+
+.vector_musk {
+    background: url(img/vector_musk_x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+.tips_1 {
+    position: absolute;
+    top: 25%;
+}
+
+.tips_2 {
+    position: absolute;
+    top: 70%;
+    left: 5%
+}
+
+.tips_3 {
+    position: absolute;
+    top: 77%;
+    left: 57%;
+}
+
+
+.vector {
+    /* background: url(img/vector_around.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 14%; */
+}
+
+/* how_to work css here start*/
+
+/* introduction css */
+.Introduction {
+    background-color: #141C22;
+}
+
+.shape {
+    background: url(img/shape.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.htn {
+    height: 50px;
+    width: 50px;
+    font-size: 33px;
+    margin: 0 10px;
+}
+
+/* Ingredients css */
+
+.Ingredients {
+    background: url(img/ingrep.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #080F15;
+}
+
+li.name {
+    list-style: none;
+    color: white;
+    border-radius: 15px;
+    padding: 4px 11px;
+    border: 1px solid #FDB647;
+    width: 50%;
+    font-size: 12px;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    height: 1px;
+    background: #FDB647;
+    right: -90%;
+    width: 90%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background: #FDB647;
+    border-radius: 50%;
+    right: -1%;
+}
+
+.right .line {
+    left: -90%;
+}
+
+.right .line .list {
+    left: -1%;
+}
+
+/* customer freequently */
+.customer_f {
+    background: #0D141A;
+}
+
+.user {
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.accordion-button::after {
+    background-image: url(img/arrow_dw.png);
+    background-position: center;
+    background-size: auto;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(img/arrow_dw.png);
+    background-position: center;
+    background-size: auto;
+}
+
+.accordion .bg-set {
+    background: #141921;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.more button {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
