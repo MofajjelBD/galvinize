@@ -130,7 +130,7 @@ li.name {
     position: absolute;
     height: 1px;
     background: #FDB647;
-    right: -90%;
+    right: -90.5%;
     width: 90%;
     top: 50%;
     display: flex;
@@ -166,8 +166,6 @@ li.name {
     overflow: hidden;
 }
 
-
-
 .accordion-button::after {
     background-image: url(img/arrow_dw.png);
     background-position: center;
@@ -192,4 +190,15 @@ li.name {
     background: transparent;
     border: none;
     font-size: 14px;
+}
+
+/* Footer css style  */
+footer {}
+
+.footer_widget {
+    background: #2D3032;
+}
+
+.footer_widget .form-control:focus {
+    box-shadow: none;
 }
