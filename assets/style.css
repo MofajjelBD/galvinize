@@ -8,12 +8,37 @@ body {
     color: white;
 }
 
-.bg-dark-cu {
+.baner {
     background-color: #141C22;
     position: relative;
 }
 
-.bg-dark-cu:after {
+.baner .wraper_left h1 {
+    color: #CE9C51;
+}
+
+.baner .wraper_left p {
+    font-size: 15px;
+}
+
+.wraper_left button img {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.wraper_left button {
+    right: -15px;
+}
+
+/* .wraper_left button {
+    background-image: url(img/arrow_dw.png);
+    background-position: center;
+    background-size: auto;
+} */
+
+.baner:after {
     top: 0;
     right: 0;
     width: 43%;
@@ -30,9 +55,31 @@ body {
 
 
 /* rating area style custom start  */
-.card_mark {
+.Rating p {
+    font-size: 20px;
+}
+
+.Rating .wrap h2 {
+    font-size: 48px;
+}
+
+.Rating .wrap i {
+    font-size: 14px;
+    margin: 0 2px;
+}
+
+.Rating .wrap p {
+    color: #9A9C9F;
+    font-size: 16px;
+}
+
+.card_mark-rating {
     max-width: 140px;
-    border: 1px solid red;
+    border: 1px solid #423E30;
+}
+
+.card_mark-rating span {
+    color: #E0E0E1;
 }
 
 svg.bi.bi-star-fill {
@@ -47,44 +94,60 @@ svg.bi.bi-star-fill {
 }
 
 .vector_musk {
-    background: url(img/vector_musk_x.png);
+    /* background: url(img/vector_musk_x.png);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 100%;
     position: relative;
+}
+
+.vector {
+    text-align: right;
+}
+
+.vector img {
+    max-height: 370px;
 }
 
 .tips_1 {
     position: absolute;
     top: 25%;
+    left: 17%;
+}
+
+.card_mark {
+    background: rgba(0, 0, 0, 0.60);
+    max-width: 140px;
+}
+
+.vector_musk h5 {
+    font-size: 14px;
+}
+
+.tips_1 p {
+    color: #94979B;
+    font-size: 11px;
 }
 
 .tips_2 {
     position: absolute;
     top: 70%;
-    left: 5%
+    left: 20%
 }
 
 .tips_3 {
     position: absolute;
-    top: 77%;
-    left: 57%;
+    top: 75%;
+    left: 67%;
 }
 
-
-.vector {
-    /* background: url(img/vector_around.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    top: 14%; */
+.blog p {
+    font-size: 14px;
 }
 
-/* how_to work css here start*/
+/* how_to work css here end*/
+
 
 /* introduction css */
 .Introduction {
@@ -105,6 +168,15 @@ svg.bi.bi-star-fill {
     margin: 0 10px;
 }
 
+img.rounded-circle {
+    width: 100%;
+    max-width: 200px;
+}
+
+.During p {
+    color: #A9ABAC;
+}
+
 /* Ingredients css */
 
 .Ingredients {
@@ -121,7 +193,7 @@ li.name {
     border-radius: 15px;
     padding: 4px 11px;
     border: 1px solid #FDB647;
-    width: 50%;
+    width: 55%;
     font-size: 12px;
     position: relative;
 }
@@ -130,8 +202,8 @@ li.name {
     position: absolute;
     height: 1px;
     background: #FDB647;
-    right: -90.5%;
-    width: 90%;
+    right: -80.5%;
+    width: 80%;
     top: 50%;
     display: flex;
     align-items: center;
@@ -147,7 +219,7 @@ li.name {
 }
 
 .right .line {
-    left: -90%;
+    left: -80%;
 }
 
 .right .line .list {
@@ -159,11 +231,29 @@ li.name {
     background: #0D141A;
 }
 
+.card p {
+    font-size: 15px;
+}
+
 .user {
-    width: 100px;
+    width: 90px;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.customer_f .name h5 {
+    font-size: 18pt;
+    color: #484B4B;
+}
+
+.customer_f .name p {
+    font-size: 10pt;
+    color: #484B4B;
+}
+
+.user img {
+    width: 100%;
 }
 
 .accordion-button::after {
@@ -182,6 +272,14 @@ li.name {
     background: #141921;
 }
 
+.accordion-button {
+    font-size: 15px;
+}
+
+.accordion-body {
+    font-size: 13px;
+}
+
 .accordion-button:focus {
     box-shadow: none;
 }
@@ -189,7 +287,7 @@ li.name {
 .more button {
     background: transparent;
     border: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* Footer css style  */
@@ -201,4 +299,43 @@ footer {}
 
 .footer_widget .form-control:focus {
     box-shadow: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .vector img {
+        max-width: 100%;
+    }
+
+    .tips_1 {
+        top: 0%;
+        left: 0%;
+    }
+
+    .tips_2 {
+        top: 50%;
+        left: 25%;
+    }
+
+    .tips_3 {
+        top: 90%;
+        left: 50%;
+    }
+
+    .customer_f .name h5 {
+        font-size: 11pt;
+    }
+
+    .customer_f h2 {
+        font-size: 20px;
+    }
+
+
+    /* Introduction css  */
+
+    .shape {
+        background: none;
+    }
 }
